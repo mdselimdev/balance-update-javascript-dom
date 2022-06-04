@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background:crimson">
+    
+<div class="container-div">
+<div class="text-box">
+    <h1 style="font-size: 40px;font-weight:800;">Dashboard</h1>
+    <h4 style="font-size: 25px;font-weight:600;margin-top: 20px;">Enjoy your bangking with sbbank</h4>
+</div>
+    <div class="main-div">
+        
+        <div class="single-box">
+            <input class="w-100 input-cmn" id="depositBalace" placeholder="Enter your money" type="number">
+            <button class="btn-cmn" id="depositBalanceBtn">Deposit Money</button>
+        </div>
+        <div class="single-box">
+            <input class="w-100 input-cmn" placeholder="Enter your money" type="number" id="withdrawMoney">
+            <button class="btn-cmn" id="withdrawMoneyBtn" >Withdraw Money</button>
+        </div>
+        <div class="single-box">
+            <input class="w-100 input-cmn" id="fundTransfer" placeholder="Enter your money" type="number">
+            <button class="btn-cmn" id="fundTransferBtn" >Fund Transfer</button>
+        </div>
+        <div class="single-box">
+            <h4 style="font-size: 25px;font-weight:700;margin-top: 20px;">Personal Balance</h4>
+            <h1><span id="updateBalance">0</span> <span>$</span></h1>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Javascript Link  -->
+<script src="script.js"></script>
+</body>
+</html>
